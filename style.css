@@ -36,12 +36,17 @@
     text-align: center; 
     margin: 0 auto; 
     padding: 0.5%;
+    
 }
 
 .buttons button {
     padding: 1%;
     width: 40%; /* Adjusted for smaller screens */
     margin: 1%;
+    font-size:larger;
+    font-weight: 500;
+    color: white;
+    background-color: purple;
 }
 
 /* Media query for screens smaller than 768px (typical mobile screens) */
