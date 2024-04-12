@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20vh;
+        }
+        .text {
+            font-size: 200%;
+            margin-top: 1%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="happy.gif" alt="happy">
+        <p class="text">LEZZGOOOOOOWWW!!!<br>Pm for details hehehehehe</p>
+        
+        <button id="resetBtn">Reset</button>
+    </div>
+
+
+    <script src="script.js"></script>
+    
+    <script>
+        document.getElementById('resetBtn').addEventListener('click', function() {
+            window.location.href = 'base.html';
+        });
+    </script>
+</body>
+</html>
