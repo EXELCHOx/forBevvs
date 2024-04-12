@@ -33,17 +33,15 @@
 
 .buttons {
     width: 90%; /* Adjusted for smaller screens */
-    max-width: 300px; /* Limiting the maximum width for larger screens */
     text-align: center; 
     margin: 0 auto; 
     padding: 0.5%;
-    
 }
 
 .buttons button {
     padding: 1%;
-    width: 40%; /* Adjusted for smaller screens */
-    margin: 1%;
+    width: calc(10% - 2px); /* Adjusted for smaller screens */
+    margin: 1px; /* Added to maintain space between buttons */
     font-size:larger;
     font-weight: 500;
     color: white;
@@ -65,6 +63,6 @@
     }
     
     .buttons button {
-        width: 40%; /* Adjust button width for smaller screens */
+        width: calc(40% - 2px); /* Adjust button width for smaller screens */
     }
 }
